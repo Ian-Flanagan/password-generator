@@ -163,7 +163,7 @@ function generatePassword() {
 
   var password = ""; //"oJ7&"
 
-  for (var i = 0; i < length - guaranteed.length; i++) {
+  for (var i = 0; i < length; i++) {
     var randomNumber = Math.floor(Math.random() * passwordGenArray.length);
     var randomCharacter = passwordGenArray[randomNumber];
     password = password + randomCharacter;
