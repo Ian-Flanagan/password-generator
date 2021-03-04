@@ -164,6 +164,7 @@ function generatePassword() {
   var password = ""; //"oJ7&"
 
   for (var i = 0; i < length; i++) {
+    console.log(length);
     var randomNumber = Math.floor(Math.random() * passwordGenArray.length);
     var randomCharacter = passwordGenArray[randomNumber];
     password = password + randomCharacter;
