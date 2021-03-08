@@ -185,11 +185,3 @@ function writePassword() {
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
 
-
-var animals = ["dog" ,"cat", "chicken", "mouse"];
-
-animals[3]
-
-passwordGenArray = ["a", "b", "c"];
-var index = 0;
-passwordGenArray[index]
